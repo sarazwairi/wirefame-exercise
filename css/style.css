@@ -1,20 +1,69 @@
+
 body{
-    padding: 10px;
-    text-align: center;
+        width:960px ;
+        margin: auto;
+        font-family:;
+        background-color: lightgrey;
+        text-align: center;
 }
 
-header h1{}
+nav ul{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    margin-bottom: 20px;
 
-nav{}
+}
+nav{
+    background-color:gray;
+    margin-bottom: 30px;
+}
+nav ul li{
+    font-size: 20px;
+    vertical-align: middle;
+    margin: auto;
+    color: #ddd;
+}
+}
+main>img:first-child{
+    width: 100%;
 
-nav ul li{}
+}
+main div {
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 30px;
+    margin-top: 20px;
+}
+h2{
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
 
-main>img{}
-
-div img:nth-child(1),div img:nth-child(2),div img:nth-child(3)
-{}
-
-div#inline{}
-
-div#inline img,div#inline section{}
-
+div#inline img,div#inline section{
+    
+    display:inline;
+}
+#inline p{
+    width: 450px;
+    overflow:scroll;
+    height: 350px;
+    line-height: 22px;
+    
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-right: 320px;
+}
+button:hover{
+    background-color: teal;
+}
+footer{
+    background-color: gray;
+    padding: 50px 70px;
+    margin-top: 20px;
+}
