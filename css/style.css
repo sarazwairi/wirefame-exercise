@@ -2,7 +2,6 @@
 body{
         width:960px ;
         margin: auto;
-        font-family:;
         background-color: lightgrey;
         text-align: center;
 }
@@ -23,7 +22,7 @@ nav ul li{
     margin: auto;
     color: #ddd;
 }
-}
+
 main>img:first-child{
     width: 100%;
 
