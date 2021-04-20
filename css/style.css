@@ -46,7 +46,7 @@ div#inline img,div#inline section{
 }
 #inline p{
     width: 450px;
-    overflow:scroll;
+    overflow-y:scroll;
     height: 350px;
     line-height: 22px;
     
