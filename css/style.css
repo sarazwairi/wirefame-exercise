@@ -1,6 +1,6 @@
 
 body{
-        width:960px ;
+        width:1200px ;
         margin: auto;
         background-color: lightgrey;
         text-align: center;
@@ -15,23 +15,30 @@ nav ul{
 nav{
     background-color:gray;
     margin-bottom: 30px;
+    padding-left: 116px;
+    padding-right: 110px
 }
 nav ul li{
     font-size: 20px;
     vertical-align: middle;
-    margin: auto;
+    margin:auto;
     color: #ddd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
 }
 
 main>img:first-child{
-    width: 100%;
+    width: 960;
 
 }
 main div {
+    width: 960px;
     display: grid;
     grid-template-columns:repeat(3,1fr);
-    gap: 30px;
+    gap: 20px;
     margin-top: 20px;
+    margin-left: 120px;
 }
 h2{
     text-align: left;
